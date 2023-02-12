@@ -1,0 +1,44 @@
+# IDs
+MY_ID = 40181343
+PARTNER_ID = 40174533
+
+
+# my data
+p = 45377
+q = 37529
+N = 1702953433
+phi_N = 1702870528
+e = 48975
+d = 560947631
+
+# my partner data
+PARTNER_N = 3159296083
+PARTNER_e = 6971
+
+# encryption
+MY_MESSAGE = "Hello World"
+MY_MESSAGE_chunks = ['Hel', 'lo ', 'Wor', 'ld']
+MY_CIPHERTEXT = [937058077, 2843251959, 1824210289, 247713582]
+
+# decryption
+PARTNER_CIPHERTEXT = [1315173943, 969027936, 1179977769, 303419892, 597369997, 914877143, 1659896485]
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ['Con', 'cor', 'dia', ' Un', 'ive', 'rsi', 'ty ']
+PARTNER_MESSAGE_AFTER_DECRYPT = "Concordia University "
+
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Saimon Bin Islam  "
+MY_MESSAGE_TO_BE_SIGNED_chunks = ['Sai', 'mon', ' Bi', 'n I', 'sla', 'm  ']
+MY_SIGNATURE = [688819031, 668885945, 1507286142, 485829063, 706383104, 1407264667]
+
+# verfiy the signature
+PARTNER_SIGNED_MESSAGE = "Ahmadreza Abazari"
+PARTNER_SIGNATURE = [778057922, 2531329343, 663130029, 1739737762, 2671698693, 2100267896]
+#IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
+
+
+
+COMMENTS = '''
+# If you have a short comment, write it here
+''' I did my work using Python.
